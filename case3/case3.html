@@ -3,8 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>case 3</title>
+
+    <link rel="stylesheet" href="../Css/normalize.Css">
+
+    <style>
+
+        #section1{
+            height: 45vw;
+            width: 100%;
+            border: black solid 2px;
+        }
+
+        #section1>div{
+            background-color: white;
+            border: grey solid 10px;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #section1>div>div{
+            background-color: white;
+            border: red solid 10px;
+            width: 180px;
+            height:180px;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #section1>div>div>div{
+            border: purple solid 10px;
+            width: 160px;
+            height:160px;
+            background-color: purple;
+            color: white;
+            font-size: large;
+            text-align: center;
+            border-radius: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            position: absolute;
+
+        }
+
+        section:nth-child(2){
+            height: 45vw;
+            width: 100%;
+            border: black solid 2px;
+        }
+
+
+        section:nth-child(2)>div{
+            background-color: white;
+            border: red solid 10px;
+            width: 180px;
+            height:180px;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+    </style>
+
+
+
 </head>
 <body>
+
+<section id="section1">
+<div>
+    <div>
+        <div>HELLO</div>
+    </div>
+</div>
+</section>
+
+<section id="section2">
+    <div>
+        <div></div>
+    </div>
+</section>
+
 
 </body>
 </html>
